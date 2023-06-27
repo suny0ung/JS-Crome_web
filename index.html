@@ -7,17 +7,23 @@
     <title>SunYoung's momentum</title>
   </head>
   <body>
-    <form id="login-form">
-      <input
-        required
-        minlength="0"
-        maxlength="15"
-        type="text"
-        placeholder="이름을 작성해주세요"
-      />
-      <button>로그인</button>
-    </form>
-    <h1 id="user-name" class="hidden"></h1>
+    <div>
+      <div id="user-name-wrap">
+        <form id="login-form">
+          <input
+            required
+            minlength="0"
+            maxlength="15"
+            type="text"
+            placeholder="what is your name"
+          />
+          <button>로그인</button>
+        </form>
+        <h1 id="user-name" class="hidden"></h1>
+      </div>
+      <div id="weather-wrap"></div>
+    </div>
+
     <script src="js/username.js"></script>
   </body>
 </html>
