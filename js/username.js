@@ -6,17 +6,17 @@ const HelloUserName = document.querySelector("#user-name");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "userName";
 
-function showUserName(userName) {
-  HelloUserName.classList.remove(HIDDEN_CLASSNAME);
-  HelloUserName.innerText = `hello, ${userName}`;
-}
-
 function onLoginButtonClick(e) {
   e.preventDefault();
   const userName = loginInput.value;
   loginForm.classList.add(HIDDEN_CLASSNAME);
-  showUserName(userName);
   localStorage.setItem(USERNAME_KEY, userName);
+  showUserName(userName);
+}
+
+function showUserName(userName) {
+  HelloUserName.innerText = `hello, ${userName}`;
+  HelloUserName.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUserName = localStorage.getItem(USERNAME_KEY);
