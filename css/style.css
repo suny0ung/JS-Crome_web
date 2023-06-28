@@ -3,7 +3,15 @@
 
 * {
   box-sizing: border-box;
+  background-color: rgb(241, 240, 223);
+  color: rgb(72, 141, 230);
   /* font-family: ; */
+}
+
+.head-wrap {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hidden {
