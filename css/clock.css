@@ -1,0 +1,19 @@
+#clock-wrap {
+  display: flex;
+  padding-left: 38px;
+}
+
+#big-time {
+  width: 19vw;
+  display: flex;
+  font-size: 8vw;
+}
+
+#clock-inner-wrap {
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2.8vw;
+}

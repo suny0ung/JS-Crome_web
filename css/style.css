@@ -1,5 +1,6 @@
 @import "username.css";
 @import "weather.css";
+@import "clock.css";
 
 * {
   box-sizing: border-box;
@@ -8,10 +9,14 @@
   /* font-family: ; */
 }
 
-.head-wrap {
+.header-wrap {
   padding: 30px 40px;
   display: flex;
   justify-content: space-between;
+}
+
+.main-wrap {
+  background-color: aquamarine;
 }
 
 .hidden {
