@@ -1,4 +1,5 @@
 #clock-wrap {
+  width: fit-content;
   display: flex;
   padding-left: 38px;
 }

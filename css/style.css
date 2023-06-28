@@ -1,6 +1,7 @@
 @import "username.css";
 @import "weather.css";
 @import "clock.css";
+@import "quotes.css";
 
 * {
   box-sizing: border-box;
@@ -16,7 +17,13 @@
 }
 
 .main-wrap {
-  background-color: aquamarine;
+  height: 80vh;
+  /* background-color: aquamarine; */
+}
+.tail-wrap {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .hidden {
