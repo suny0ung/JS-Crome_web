@@ -10,14 +10,10 @@
     <div class="header-wrap">
       <div id="user-name-wrap">
         <form id="login-form" class="hidden">
-          <input
-            required
-            minlength="0"
-            maxlength="15"
-            type="text"
-            placeholder="what is your name"
-          />
-          <button>로그인</button>
+          <input required minlength="0" maxlength="15" type="text" />
+          <label>Name</label>
+          <span></span>
+          <!-- <button>로그인</button> -->
         </form>
         <h1 id="user-name" class="hidden"></h1>
       </div>
@@ -28,11 +24,21 @@
     </div>
 
     <div class="main-wrap">
-      <div id="clock-wrap">
-        <span id="big-time"></span>
-        <div id="clock-inner-wrap">
-          <span id="AM-PM"></span>
-          <span id="time-seconds"></span>
+      <div class="main-left">
+        <div id="search-wrap">
+          <form id="search-form">
+            <input required type="text" />
+            <label>Google</label>
+            <span></span>
+          </form>
+        </div>
+
+        <div id="clock-wrap">
+          <span id="big-time"></span>
+          <div id="clock-inner-wrap">
+            <span id="AM-PM"></span>
+            <span id="time-seconds"></span>
+          </div>
         </div>
       </div>
     </div>
@@ -49,5 +55,6 @@
     <script src="js/clock.js"></script>
     <script src="js/username.js"></script>
     <script src="js/quotes.js"></script>
+    <script src="js/search.js"></script>
   </body>
 </html>

@@ -1,14 +1,8 @@
-#user-name-wrap {
-  height: 30px;
-  /* padding: 30px 40px; */
-}
-
-#login-form {
-  width: 200px;
+#search-form {
   position: relative;
 }
 
-#login-form input {
+#search-form input {
   width: 100%;
   padding: 10px;
   border: none;
@@ -16,18 +10,11 @@
   color: #222222;
 }
 
-#login-form input:focus {
+#search-form input:focus {
   outline: none;
 }
 
-/* button {
-  padding: 8px 10px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color: rgba(1, 1, 1, 0);
-} */
-
-#login-form label {
+#search-form label {
   position: absolute;
   color: #aaa;
   left: 10px;
@@ -35,13 +22,7 @@
   transition: all 0.2s;
 }
 
-#user-name {
-  width: fit-content;
-  margin: 3px 0;
-  font-size: 30px;
-}
-
-#login-form span {
+#search-form span {
   width: 0;
   height: 2px;
   display: block;
@@ -53,8 +34,8 @@
   transition: 0.5s;
 }
 
-#login-form input:focus ~ label,
-#login-form input:valid ~ label {
+#search-form input:focus ~ label,
+#search-form input:valid ~ label {
   left: 10px;
   bottom: 37px;
   color: rgb(58, 103, 224);
@@ -62,7 +43,7 @@
   font-weight: bold;
 }
 
-#login-form input:focus ~ span,
-#login-form input:valid ~ span {
+#search-form input:focus ~ span,
+#search-form input:valid ~ span {
   width: 100%;
 }

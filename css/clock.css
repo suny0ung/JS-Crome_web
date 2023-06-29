@@ -1,20 +1,21 @@
 #clock-wrap {
-  width: fit-content;
+  width: 100%;
+  padding: 10% 0;
   display: flex;
-  padding-left: 38px;
+  justify-content: center;
 }
 
 #big-time {
-  width: 19vw;
+  width: 16vw;
   display: flex;
-  font-size: 8vw;
+  font-size: 7vw;
 }
 
 #clock-inner-wrap {
-  margin-bottom: 1vh;
+  margin-bottom: 0.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  font-size: 2.8vw;
+  font-size: 2.5vw;
 }

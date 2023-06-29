@@ -2,11 +2,16 @@
 @import "weather.css";
 @import "clock.css";
 @import "quotes.css";
+@import "search.css";
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  background-color: rgb(241, 240, 223);
-  color: rgb(72, 141, 230);
+  background-color: rgb(254, 255, 250);
+  color: rgb(58, 103, 224);
+  /* background-color: rgb(241, 240, 223);
+  color: rgb(72, 141, 230); */
   /* font-family: ; */
 }
 
@@ -18,8 +23,15 @@
 
 .main-wrap {
   height: 80vh;
-  /* background-color: aquamarine; */
 }
+
+.main-left {
+  width: 30vw;
+  padding-left: 38px;
+  display: flex;
+  flex-direction: column;
+}
+
 .tail-wrap {
   width: 100vw;
   display: flex;
