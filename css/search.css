@@ -1,5 +1,13 @@
+.search-wrap {
+  /* background-color: yellow; */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
 .search-form {
   position: relative;
+  width: 52vw;
 }
 
 .search-form input {
@@ -14,13 +22,13 @@
   outline: none;
 }
 
-.search-form label {
+/* .search-form label {
   position: absolute;
   color: #aaa;
   left: 10px;
   bottom: 8px;
   transition: all 0.2s;
-}
+} */
 
 .search-form span {
   width: 0;
@@ -34,13 +42,13 @@
   transition: 0.5s;
 }
 
-.search-form input:focus ~ label,
-.search-form input:valid ~ label {
+.search-form input:focus,
+.search-form input:valid {
   left: 10px;
   bottom: 37px;
-  color: rgb(58, 103, 224);
-  font-size: 15px;
-  font-weight: bold;
+  /* color: rgb(58, 103, 224); */
+  /* font-size: 15px; */
+  /* font-weight: bold; */
 }
 
 .search-form input:focus ~ span,

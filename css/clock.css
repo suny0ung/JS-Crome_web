@@ -1,12 +1,12 @@
 .clock-wrap {
-  width: 100%;
-  padding: 10% 0;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
+  /* background-color: yellow; */
 }
 
 .big-time {
-  width: 16vw;
+  width: 19vw;
   display: flex;
   font-size: 7vw;
 }

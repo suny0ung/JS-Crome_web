@@ -24,33 +24,33 @@
     </div>
 
     <div class="main-wrap">
-      <div class="main-left">
-        <div class="search-wrap">
-          <form class="search-form">
-            <input required type="text" />
-            <label>Google</label>
-            <span></span>
-          </form>
+      <div class="clock-wrap">
+        <span class="big-time"></span>
+        <div class="clock-inner-wrap">
+          <span class="AM-PM"></span>
+          <span class="time-seconds"></span>
         </div>
+      </div>
+      <div class="search-wrap">
+        <form class="search-form">
+          <input required type="text" placeholder="Google Search" />
+          <!-- <label>Google</label> -->
+          <span></span>
+        </form>
+      </div>
+    </div>
 
-        <div class="clock-wrap">
-          <span class="big-time"></span>
-          <div class="clock-inner-wrap">
-            <span class="AM-PM"></span>
-            <span class="time-seconds"></span>
-          </div>
-        </div>
-
-        <div>
-          <form class="todo-form">
-            <input
-              required
-              type="text"
-              placeholder="오늘의 할일을 작성해 주세요."
-            />
-          </form>
-          <ul class="todo-list"></ul>
-        </div>
+    <div>
+      <div class="todo-wrap">
+        <h2>TO DO LIST</h2>
+        <form class="todo-form">
+          <input
+            required
+            type="text"
+            placeholder="오늘의 할일을 작성해 주세요."
+          />
+        </form>
+        <ul class="todo-list"></ul>
       </div>
     </div>
 
