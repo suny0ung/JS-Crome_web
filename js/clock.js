@@ -1,6 +1,6 @@
-const mainClock = document.querySelector("#clock-wrap span");
-const amPm = document.querySelector("#AM-PM");
-const secondsTime = document.querySelector("#time-seconds");
+const mainClock = document.querySelector(".clock-wrap span");
+const amPm = document.querySelector(".AM-PM");
+const secondsTime = document.querySelector(".time-seconds");
 
 function getTime() {
   const date = new Date();

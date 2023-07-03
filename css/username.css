@@ -1,14 +1,14 @@
-#user-name-wrap {
+.user-name-wrap {
   height: 30px;
   /* padding: 30px 40px; */
 }
 
-#login-form {
+.login-form {
   width: 200px;
   position: relative;
 }
 
-#login-form input {
+.login-form input {
   width: 100%;
   padding: 10px;
   border: none;
@@ -16,7 +16,7 @@
   color: #222222;
 }
 
-#login-form input:focus {
+.login-form input:focus {
   outline: none;
 }
 
@@ -27,7 +27,7 @@
   background-color: rgba(1, 1, 1, 0);
 } */
 
-#login-form label {
+.login-form label {
   position: absolute;
   color: #aaa;
   left: 10px;
@@ -35,13 +35,13 @@
   transition: all 0.2s;
 }
 
-#user-name {
+.user-name {
   width: fit-content;
   margin: 3px 0;
   font-size: 30px;
 }
 
-#login-form span {
+.login-form span {
   width: 0;
   height: 2px;
   display: block;
@@ -53,8 +53,8 @@
   transition: 0.5s;
 }
 
-#login-form input:focus ~ label,
-#login-form input:valid ~ label {
+.login-form input:focus ~ label,
+.login-form input:valid ~ label {
   left: 10px;
   bottom: 37px;
   color: rgb(58, 103, 224);
@@ -62,7 +62,7 @@
   font-weight: bold;
 }
 
-#login-form input:focus ~ span,
-#login-form input:valid ~ span {
+.login-form input:focus ~ span,
+.login-form input:valid ~ span {
   width: 100%;
 }

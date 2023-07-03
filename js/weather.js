@@ -1,6 +1,6 @@
 const WEATHER_API_KEY = config.apikey;
-const cityName = document.querySelector("#weather-wrap span:first-child");
-const weatherName = document.querySelector("#weather-wrap span:last-child");
+const cityName = document.querySelector(".weather-wrap span:first-child");
+const weatherName = document.querySelector(".weather-wrap span:last-child");
 
 function getGeoSuccess(position) {
   const latitude = position.coords.latitude;

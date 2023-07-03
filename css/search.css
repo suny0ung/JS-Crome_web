@@ -1,8 +1,8 @@
-#search-form {
+.search-form {
   position: relative;
 }
 
-#search-form input {
+.search-form input {
   width: 100%;
   padding: 10px;
   border: none;
@@ -10,11 +10,11 @@
   color: #222222;
 }
 
-#search-form input:focus {
+.search-form input:focus {
   outline: none;
 }
 
-#search-form label {
+.search-form label {
   position: absolute;
   color: #aaa;
   left: 10px;
@@ -22,7 +22,7 @@
   transition: all 0.2s;
 }
 
-#search-form span {
+.search-form span {
   width: 0;
   height: 2px;
   display: block;
@@ -34,8 +34,8 @@
   transition: 0.5s;
 }
 
-#search-form input:focus ~ label,
-#search-form input:valid ~ label {
+.search-form input:focus ~ label,
+.search-form input:valid ~ label {
   left: 10px;
   bottom: 37px;
   color: rgb(58, 103, 224);
@@ -43,7 +43,7 @@
   font-weight: bold;
 }
 
-#search-form input:focus ~ span,
-#search-form input:valid ~ span {
+.search-form input:focus ~ span,
+.search-form input:valid ~ span {
   width: 100%;
 }

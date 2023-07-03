@@ -1,5 +1,5 @@
-const searchForm = document.querySelector("#search-form");
-const searchInput = document.querySelector("#search-form input");
+const searchForm = document.querySelector(".search-form");
+const searchInput = document.querySelector(".search-form input");
 
 const doSearchGoogle = (e) => {
   e.preventDefault();

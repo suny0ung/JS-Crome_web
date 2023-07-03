@@ -1,17 +1,17 @@
-#clock-wrap {
+.clock-wrap {
   width: 100%;
   padding: 10% 0;
   display: flex;
   justify-content: center;
 }
 
-#big-time {
+.big-time {
   width: 16vw;
   display: flex;
   font-size: 7vw;
 }
 
-#clock-inner-wrap {
+.clock-inner-wrap {
   margin-bottom: 0.5vh;
   display: flex;
   flex-direction: column;
